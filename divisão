@@ -1,0 +1,19 @@
+#include <iostream>
+float divs(float x, float y) {
+    return x / y;
+}
+int main() {
+    float x, y;
+
+    std::cout << "Digite o primeiro número: ";
+    std::cin >> x;
+
+    std::cout << "Digite o segundo número: ";
+    std::cin >> y;
+
+    float resultado = divs(x, y);
+
+    std::cout << "A divisão é: " << resultado<< std::endl;
+
+    return 0;
+}
