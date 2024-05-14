@@ -1,9 +1,9 @@
 #include <iostream>
-int mult(int x, int y) {
+float mult(float x, float y) {
     return x * y;
 }
 int main() {
-    int x, y;
+    float x, y;
 
     std::cout << "Digite o primeiro número: ";
     std::cin >> x;
@@ -11,7 +11,7 @@ int main() {
     std::cout << "Digite o segundo número: ";
     std::cin >> y;
 
-    int resultado = mult(x, y);
+    float resultado = mult(x, y);
 
     std::cout << "A multiplicação é: " << resultado<< std::endl;
 
