@@ -1,9 +1,9 @@
 #include <iostream>
-int soma(int x, int y) {
+float soma(float x, float y) {
     return x + y;
 }
 int main() {
-    int x, y;
+    float x, y;
 
     std::cout << "Digite o primeiro número: ";
     std::cin >> x;
@@ -11,7 +11,7 @@ int main() {
     std::cout << "Digite o segundo número: ";
     std::cin >> y;
 
-    int resultado = soma(x, y);
+    float resultado = soma(x, y);
 
     std::cout << "A soma é: " << resultado<< std::endl;
 
